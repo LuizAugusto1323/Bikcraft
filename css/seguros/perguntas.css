@@ -1,0 +1,56 @@
+.perguntas{
+    padding: 60px 20px;
+}
+
+.perguntas dl > div{
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.perguntas div:nth-child(odd){
+    background-color: var(--cor-1);
+}
+
+.perguntas h2{
+    margin-bottom: 60px;
+}
+
+.perguntas dt {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+.perguntas dt::before{
+    content: "";
+    display: inline-block;
+    height: 8px;
+    width: 12px;
+    margin-right: 8px;
+    background-color: var(--cor-p-2);
+}
+
+.perguntas dt:hover::before{
+    width: 24px;
+}
+
+.perguntas dd{
+    padding-left: 20px;
+    margin-bottom: 32px;
+    color: var(--cor-9);
+}
+
+@media(max-width: 800px){
+    .perguntas {
+        padding: 30px 10px;
+    }
+    .perguntas h2{
+        margin-bottom: 30px;
+    }
+    .perguntas dl > div{
+        padding: 10px;
+        border-radius: 8px;
+    }
+}

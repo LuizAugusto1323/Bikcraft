@@ -1,0 +1,61 @@
+.font-principal-bold-grande{
+    font: 600 4rem / 1.12 "Poppins", sans-serif;
+}
+
+.font-principal-bold-grande2 {
+    font: 600 2rem/1.25 "Poppins", sans-serif;
+}
+
+.font-principal-media-normal {
+    font: 400 1.5rem/1.5 "Poppins", sans-serif;
+}
+
+.font-principal-media-normal2, 
+.font-principal-bold-normal {font: 400 1.125rem/1.35 "Poppins", sans-serif;} 
+.font-principal-bold-normal {font-weight: 600; }
+
+.font-principal-media-normal3 {
+    font: 400 1rem/1.5 "Poppins", sans-serif;
+}
+
+.font-principal-media-pequena {
+    font: 400 0.75rem/1.35 "Poppins", sans-serif;
+}
+
+.font-secundaria-media-grande {
+    font: 500 2rem/1.25 "Roboto", sans-serif;
+}
+
+.font-secundaria-media-normal{
+    font: 400 1.5rem / 1.12 "Roboto", sans-serif;
+}
+
+.font-secundaria-media-normal2 {
+    font: 500 1.125rem/1.35 "Roboto", sans-serif;
+}
+
+.font-secundaria-media-normal3 {
+    font: 400 1rem/1.5 "Roboto", sans-serif;
+}
+
+.font-secundaria-media-pequena {
+    font: 400 0.875rem/1.43 "Roboto", sans-serif;
+}
+  
+@media (max-width: 1200px){
+    .font-principal-bold-grande{
+        font-size: 3rem;
+    }
+    .font-principal-media-normal{
+        font-size: 1.3rem;
+    }
+}
+  
+@media (max-width: 800px){
+    .font-principal-bold-grande{
+        font-size: 2rem;
+    }
+    .font-principal-bold-grande2{
+        font-size: 1.5rem;
+    }
+}

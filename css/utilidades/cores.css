@@ -1,0 +1,23 @@
+/*cor-p de cor primaria*/
+
+:root{
+    --cor-0: #ffffff;
+    --cor-1: #efefef;
+    --cor-2: #e3e3e3; 
+    --cor-3: #d2d2d2;
+    --cor-4: #b5b5b5;
+    --cor-5: #939393;
+    --cor-6: #797979;
+    --cor-7: #5b5b5b;
+    --cor-8: #434343;
+    --cor-9: #292929;
+    --cor-10: #161616;
+    --cor-11: #000000;
+    --cor-p-0: #00E0FF;
+    --cor-p-1: #02C2EC;
+    --cor-p-2: #029FC1;
+    --cor-p-3: #00758E;
+    --cor-p-4: #004858;
+    --cor-linear-0: linear-gradient(#00E0FF, #0896B5);
+    --cor-linear-1: linear-gradient(#00c9e4, #07809b);
+}
